@@ -1,0 +1,27 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "This is the basic user utility service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Abhishek Bhandari <abhi10901@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.4.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.5",
+    "nodemailer": "^4.0.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "password-hash": "^1.2.2",
+    "randomstring": "^1.1.5"
+  }
+}
